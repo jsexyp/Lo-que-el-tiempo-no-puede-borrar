@@ -1582,7 +1582,7 @@ body::before {
 
           <!-- Imagen polaroid (placeholder SVG estilo polaroid) -->
          <div class="polaroid" id="polaroid-img" style="animation-delay:0.3s;">
-           <img src="maleta.jpeg" alt="Maleta" style="width:140px; height:100px; display:block; filter:sepia(0.6); object-fit:cover;">
+           <img src="maleta.jpeg" alt="Maleta" style="width:140px; height:100px; display:block; object-fit:cover;">
            <div class="polaroid-text">Iași, Rumanía · 1941</div>
          </div>
 
@@ -1668,21 +1668,14 @@ body::before {
           <h2 class="page-title">Persona<br>y trascendencia</h2>
 
           <!-- Fotos dispersas -->
-          <div class="scattered-photo" style="top:120px; left:10px; transform:rotate(-4deg); z-index:15;">
-            <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" style="width:120px;height:80px;display:block;filter:sepia(0.7) brightness(0.8);">
-              <rect width="120" height="80" fill="#706050"/>
-              <rect x="5" y="5" width="50" height="60" fill="#8a7060" rx="1"/>
-              <!-- Familia -->
-              <circle cx="20" cy="25" r="8" fill="#c4956a"/>
-              <rect x="13" y="33" width="14" height="25" rx="2" fill="#2a1a08"/>
-              <circle cx="38" cy="28" r="6" fill="#c4956a"/>
-              <rect x="32" y="34" width="12" height="22" rx="2" fill="#1a1008"/>
-              <!-- Niño -->
-              <circle cx="28" cy="42" r="5" fill="#c4956a"/>
-              <rect x="23" y="47" width="10" height="15" rx="2" fill="#3a2818"/>
-            </svg>
-            <div style="font-size:0.55rem; font-style:italic; color:#4a3020; text-align:center; margin-top:4px;">Familia, 1939</div>
-          </div>
+            <div class="scattered-photo" style="top:160px; left:200px; transform:rotate(-4deg); z-index:15;">
+           <img src="familia.jpeg" alt="Familia" 
+                style="width:120px; height:80px; display:block; filter:sepia(0.7) brightness(0.8); object-fit:cover;">
+           
+           <div style="font-size:0.55rem; font-style:italic; color:#4a3020; text-align:center; margin-top:4px;">
+             Familia, 1939
+           </div>
+         </div>
 
           <div class="page-text" style="margin-top:2rem; padding-top: 110px;">
             <p style="font-family:'Playfair Display', serif; font-style:italic; font-size:1.1rem; margin-bottom:0.8rem;">Hijo mío,</p>
@@ -1690,45 +1683,33 @@ body::before {
             <p>Somos criaturas extraordinarias. Tenemos la capacidad de crear ciudades, sinfonías, poemas que sobreviven a los imperios. Y también tenemos la capacidad de destruir. De hacer de la crueldad un sistema y de la indiferencia una política.</p>
           </div>
           <div class="page-number">8</div>
-        </div>
+
+          <!-- Tercera foto dispersa -->
+         <div class="scattered-photo" style="bottom:150px; left:15px; transform:rotate(-2deg); z-index:15;">
+           <img src="refugio.jpeg" alt="Refugio" 
+                style="width:100px; height:70px; display:block; filter:sepia(0.6) brightness(0.75); object-fit:cover;">
+           
+           <div style="font-size:0.55rem; font-style:italic; color:#4a3020; text-align:center; margin-top:4px;">
+             Refugio, 1943
+           </div>
+         </div>
+       </div>
 
         <!-- PÁGINA DERECHA — Cap. 4 -->
         <div class="page-right" style="position:relative; overflow:visible;">
           <div class="chapter-label">Carta del padre</div>
 
           <!-- Segunda foto dispersa -->
-          <div class="scattered-photo" style="top:30px; right:5px; transform:rotate(3.5deg); z-index:15;">
-            <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" style="width:120px;height:80px;display:block;filter:sepia(0.8) contrast(1.05);">
-              <rect width="120" height="80" fill="#604838"/>
-              <!-- Calle -->
-              <rect x="0" y="45" width="120" height="35" fill="#5a4830"/>
-              <!-- Edificios -->
-              <rect x="5" y="10" width="25" height="35" fill="#7a6050" opacity="0.8"/>
-              <rect x="35" y="5" width="20" height="40" fill="#6a5040" opacity="0.7"/>
-              <rect x="60" y="15" width="30" height="30" fill="#7a6050" opacity="0.6"/>
-              <!-- Figuras -->
-              <circle cx="30" cy="42" r="5" fill="#b08060"/>
-              <rect x="26" y="47" width="8" height="15" fill="#2a1a08" rx="1"/>
-              <circle cx="50" cy="44" r="4" fill="#b08060"/>
-              <rect x="47" y="48" width="6" height="12" fill="#1a1008" rx="1"/>
-            </svg>
-            <div style="font-size:0.55rem; font-style:italic; color:#4a3020; text-align:center; margin-top:4px;">Gueto de Varsovia, 1942</div>
-          </div>
+         <div class="scattered-photo" style="top:30px; right:5px; transform:rotate(3.5deg); z-index:15;">
+           <img src="guetto.jpeg" alt="Gueto" 
+                style="width:120px; height:80px; display:block; filter:sepia(0.8) contrast(1.05); object-fit:cover;">
+           
+           <div style="font-size:0.55rem; font-style:italic; color:#4a3020; text-align:center; margin-top:4px;">
+             Gueto de Varsovia, 1942
+           </div>
+         </div>
 
-          <!-- Tercera foto dispersa -->
-          <div class="scattered-photo" style="bottom:80px; left:15px; transform:rotate(-2deg); z-index:15;">
-            <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" style="width:100px;height:70px;display:block;filter:sepia(0.6) brightness(0.75);">
-              <rect width="100" height="70" fill="#5a4838"/>
-              <!-- Ventana / luz -->
-              <rect x="30" y="10" width="40" height="30" fill="#c8a870" opacity="0.4" rx="2"/>
-              <line x1="50" y1="10" x2="50" y2="40" stroke="#8a6840" stroke-width="1"/>
-              <line x1="30" y1="25" x2="70" y2="25" stroke="#8a6840" stroke-width="1"/>
-              <!-- Figura ante la ventana -->
-              <circle cx="50" cy="48" r="8" fill="#c4956a"/>
-              <rect x="43" y="56" width="14" height="14" fill="#2a1808" rx="1"/>
-            </svg>
-            <div style="font-size:0.55rem; font-style:italic; color:#4a3020; text-align:center; margin-top:4px;">Refugio, 1943</div>
-          </div>
+         
 
           <div class="page-text" style="padding-top: 110px;">
             <p>La libertad, hijo, no es la ausencia de obstáculos. Es la decisión de resistir. De no doblegarse. De mantener la dignidad incluso cuando todo invita a abandonarla.</p>
@@ -1830,11 +1811,11 @@ body::before {
 
       <p>No lo hagas. Pero tampoco cargues lo que no es tuyo.</p>
 
-      <p>En la maleta de la vida, mete la gratitud —ocupa poco y calienta mucho. Mete la memoria de los que amaste, pero no el peso de haberlos perdido. Mete el perdón, no porque quienes te hirieron lo merezcan, sino porque tú mereces ser libre. Mete el valor para decir la verdad aunque duela. Y mete el amor —siempre el amor, aunque sea lo último que te quede.</p>
+      <p>En la maleta de la vida, mete la gratitud. Mete la memoria de los que amaste, pero no el peso de haberlos perdido. Mete el perdón, no porque quienes te hirieron lo merezcan, sino porque tú mereces ser libre. Mete el valor para decir la verdad aunque duela. Y mete el amor —siempre el amor, aunque sea lo último que te quede.</p>
 
       <p>Deja afuera el rencor. Deja el orgullo vacío, el que prefiere tener razón a tener paz. Deja las versiones de ti mismo que ya no necesitas: el niño que tenía miedo de hablar, el joven que creyó que la dureza era fortaleza. Deja el pasado que ya no puedes cambiar.</p>
 
-      <p>Aprender a soltar también es sobrevivir.</p>
+      <p>Recuerda que aprender a soltar también es sobrevivir.</p>
 
       <p>En esta maleta que preparo esta noche hay una fotografía de tu abuela, los tefilín de tu abuelo y una carta sin terminar. No traje el miedo, aunque lo tengo. No traje la rabia, aunque la siento. Me niego a dejarte como herencia lo que me destruye.</p>
 
